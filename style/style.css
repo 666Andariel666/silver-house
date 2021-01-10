@@ -1,0 +1,246 @@
+            @import "http://fonts.fontstorage.com/import/roboto.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #bab9b9;
+    
+
+
+}
+
+a:hover {
+    color: #3399cc;
+    
+
+}
+
+li {
+    list-style: none;
+    
+    
+}
+
+/* ===========================================HEADER=========================================== */
+.header {
+    margin: 0 auto;
+    height: 618px;
+    width: 1110px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.header a {
+    display: inline-block;
+    padding: 10px;
+
+    
+}
+.flex_logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.a_logo{
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.logo {
+   display: block;
+}
+
+
+.nav {
+    padding-top: 16px;
+    padding-bottom: 37px;
+    user-select: none;
+}
+
+.nav_list__content {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    user-select: none;
+    
+}
+
+.nav_list__ul {
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    transition: 0.8s;
+    border-bottom: 2px #3399cc00 solid; 
+    padding-bottom: 10px;
+    user-select: none;
+    
+}
+
+.nav_list__ul:hover {
+    border-bottom: 2px #3399cc solid; 
+    transform: scale(1.0);
+}
+
+.header_bg {
+    display: flex;
+    align-content: center;
+    background: url(../img/headerbg.png);
+    background-repeat: no-repeat;   
+}
+
+/* =========================================/HEADER========================================= */
+
+/*=======================================  MAIN ======================================= */
+
+/*=======================================  /MAIN ======================================= */
+.main {
+    margin: 0 auto;
+    width: 1110px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+
+.main_left_block {
+    background: #f0f0f0;
+    height: 500px;
+    width: 730px;
+    user-select: none;
+}
+
+.left_block__h3 {
+    padding-top: 49px;
+    padding-bottom: 30px;
+    height: max-content;
+    padding-left: 40px;
+    font-family: 'Roboto';
+    justify-content: center;
+    color: #3399cc;
+    user-select: none;
+}
+
+.left_block__p {
+    font-family: 'roboto';
+    font-style: normal;
+    text-align: left;
+    font-size: 16px;
+    color: #666666;
+    padding-left: 40px;
+    padding-right: 95px;
+    line-height: 26px;
+    user-select: none;
+}
+
+.main_right_block {
+    background: #f0f0f0;
+    height: 500px;
+    width: 350px;
+    user-select: none;
+
+}
+
+.right_block__h3 {
+    padding-top: 49px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    height: max-content;
+    font-family: 'Roboto';
+    justify-content: center;
+    color: #3399cc;
+    user-select: none;
+
+}
+
+.right_block__p {
+    padding-left: 40px;
+    padding-right: 45px;
+    font-family: 'roboto';
+    font-style: normal;
+    text-align: left;
+    font-size: 16px;
+    color: #666666;
+    padding-left: 40px;
+    padding-right: 95px;
+    line-height: 26px;
+    user-select: none;
+}
+.par_phone{
+    padding-top: 48px;
+    padding-left: 40px;
+    color: #666666;
+    font-size: 16px;
+    font-family: 'roboto';
+    font-style: normal;
+    user-select: text;
+}
+.par_email{
+    margin-top: 52px;
+    padding-left: 40px;
+    color: #666666;
+    font-size: 16px;
+    font-family: 'roboto';
+    font-style: normal;  
+    user-select: text;
+
+}
+/*==================================== FOOTER ====================================*/
+.footer {
+    margin: 0 auto;
+    height: 150px;
+    width: 1110px;
+    background: #f0f0f0;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_logo {
+    padding-top: 16px;
+    padding-left: 40px;
+
+}
+
+.contact_us {
+    padding-right: 40px;
+    padding-top: 40px;
+
+}
+
+.CallCenter {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    color: #666666;
+    user-select: none;
+
+}
+
+.Phone {
+    font-family: 'Roboto';
+    font-style: bold;
+    font-size: 25px;
+    color: #666666;    
+    text-align: right;
+}
+
+
+
+/*==================================== /FOOTER ====================================*/
